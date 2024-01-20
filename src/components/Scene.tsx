@@ -1,12 +1,10 @@
 import { Canvas } from "@react-three/fiber";
+import { Avatar } from "./Avatar";
 
 export const Scene = () => {
   return (
     <Canvas>
-      <mesh>
-        <torusKnotGeometry />
-        <meshNormalMaterial />
-      </mesh>
+      <Avatar />
     </Canvas>
   );
 };
